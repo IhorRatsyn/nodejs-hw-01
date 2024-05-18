@@ -1,6 +1,6 @@
 import { PATH_DB } from '../constants/contacts.js';
 import { promises as fs } from 'fs';
-import { createFakeContact } from './createFakeContact.js'; // Припускаю, що у вас є така функція в цьому файлі
+import { createFakeContact } from '../utils/createFakeContact.js';
 
 export const addOneContact = async () => {
   try {
